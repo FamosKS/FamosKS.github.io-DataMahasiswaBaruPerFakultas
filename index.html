@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Mahasiswa Baru</title>
+    <style>
+        @media print {
+            .no-print, .no-print * {
+                display: none !important;
+            }
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        .background-blur {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("images.jpg") no-repeat center center;
+            background-size: cover;
+            backdrop-filter: blur(10px);
+            z-index: -1;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px; /* Jarak antar tabel */
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-blur"></div>
+    <div class="no-print"></div>
+    <div class="container">
+        <h1><center>Laporan Penerimaan Mahasiswa Baru</center></h1>
+        <h2><center>Universitas Negeri Padang</center></h2>
+        <h3><center>TA : 2025/2026</center></h3>
+
+        <img src="unp.png" alt="Logo UNP" class="logo">
+        <h4>Fakultas Teknik</h4>
+
+        <!-- Tabel Pertama -->
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>No. Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>010011</td>
+                <td>Rizky Pratama</td>
+                <td>SNBT</td>
+                <td>Teknik Elektro</td>
+                <td>Teknik Listrik</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>010012</td>
+                <td>Siti Aisyah</td>
+                <td>SNBP</td>
+                <td>Teknik Mesin</td>
+                <td>Teknik Mesin</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>010013</td>
+                <td>Arif Rahman</td>
+                <td>Mandiri</td>
+                <td>Teknik Sipil</td>
+                <td>Teknik Sipil</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>010014</td>
+                <td>Dian Anggraeni</td>
+                <td>SNBT</td>
+                <td>Teknik Elektronika</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>010015</td>
+                <td>Fajar Nungroho</td>
+                <td>SNBP</td>
+                <td>Teknik Pertambangan</td>
+                <td>Teknik Pertambangan</td>
+            </tr>
+        </table>
+
+        <h4>Fakultas Ilmu Pendidikan </h4>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>No. Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>020011</td>
+                <td>Rina Wijaya</td>
+                <td>SNBT</td>
+                <td>Pendidikan Sekolah Dasar</td>
+                <td>Pendidikan Guru SD</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>020012</td>
+                <td>Agus Setiawan</td>
+                <td>SNBP</td>
+                <td>Pendidikan Luar Biasa</td>
+                <td>Pendidikan Luar Biasa</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>020013</td>
+                <td>Sari Dewi</td>
+                <td>Mandiri</td>
+                <td>Bimbingan Konseling</td>
+                <td>Bimbingan dan Konseling</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>020014</td>
+                <td>Bambang Prasetyo</td>
+                <td>SNBT</td>
+                <td>Pendidikan Luar Biasa</td>
+                <td>Pendidikan Luar Biasa</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>020015</td>
+                <td>Fitriani</td>
+                <td>SNBP</td>
+                <td>Pendidikan Sekolah Dasar</td>
+                <td>Pendidikan Guru SD</td>
+            </tr>
+        </table>
+        <h4>Fakultas Matematika dan Ilmu Pengetahuan Alam</h4>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>No. Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>030011</td>
+                <td>Adi Nugroho</td>
+                <td>SNBT</td>
+                <td>Matematika</td>
+                <td>Matematika</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>030012</td>
+                <td>Bella Putri</td>
+                <td>SNBP</td>
+                <td>Fisika</td>
+                <td>Fisika</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>030013</td>
+                <td>Citra Wulandari</td>
+                <td>Mandiri</td>
+                <td>Biologi</td>
+                <td>Biologi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>030014</td>
+                <td>Dedi Sutanto</td>
+                <td>SNBT</td>
+                <td>Kimia</td>
+                <td>Kimia</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>030015</td>
+                <td>Eka Purnama</td>
+                <td>SNBP</td>
+                <td>Statistika</td>
+                <td>Statistika</td>
+            </tr>
+        </table>
+        <h4>Fakultas Psikologi dan Kesehatan</h4>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Program Studi (Prodi)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>202301031</td>
+                <td>Anisa Rahmawati</td>
+                <td>SNBT</td>
+                <td>Psikologi</td>
+                <td>Psikologi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202301032</td>
+                <td>Budi Santoso</td>
+                <td>SNBP</td>
+                <td>Keperawatan</td>
+                <td>Keperawatan</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>202301033</td>
+                <td>Citra Lestari</td>
+                <td>Mandiri</td>
+                <td>Psikologi</td>
+                <td>Psikologi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>202301034</td>
+                <td>Dwi Rahayu</td>
+                <td>SNBT</td>
+                <td>Keperawatan</td>
+                <td>Keperawatan</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>202301035</td>
+                <td>Eko Prasetyo</td>
+                <td>SNBP</td>
+                <td>Psikologi</td>
+                <td>Psikologi</td>
+            </tr>
+        </table>
+        <h4>Fakultas Bahasa dan Seni</h4>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Program Studi (Prodi)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>202301036</td>
+                <td>Anisa Fitriani</td>
+                <td>SNBT</td>
+                <td>Bahasa dan Sastra Indonesia</td>
+                <td>Sastra Indonesia</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202301037</td>
+                <td>Budi Santoso</td>
+                <td>SNBP</td>
+                <td>Bahasa Inggris</td>
+                <td>Sastra Inggris</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>202301038</td>
+                <td>Citra Lestari</td>
+                <td>Mandiri</td>
+                <td>Seni Rupa</td>
+                <td>Seni Rupa</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>202301039</td>
+                <td>Dwi Rahayu</td>
+                <td>SNBT</td>
+                <td>Seni Drama dan Tari</td>
+                <td>Seni Pertunjukan</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>202301040</td>
+                <td>Eko Prasetyo</td>
+                <td>SNBP</td>
+                <td>Perpustakaan dan Ilmu Informasi</td>
+                <td>Ilmu Perpustakaan</td>
+            </tr>
+        </table>
+        <h4>Fakultas Ilmu Sosial</h4>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Program Studi (Prodi)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>202301041</td>
+                <td>Anisa Fitriani</td>
+                <td>SNBT</td>
+                <td>Sejarah</td>
+                <td>Ilmu Sejarah</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202301042</td>
+                <td>Budi Santoso</td>
+                <td>SNBP</td>
+                <td>Sosiologi</td>
+                <td>Sosiologi</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>202301043</td>
+                <td>Citra Lestari</td>
+                <td>Mandiri</td>
+                <td>Geografi</td>
+                <td>Geografi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>202301044</td>
+                <td>Dwi Rahayu</td>
+                <td>SNBT</td>
+                <td>Ilmu Administrasi Negara</td>
+                <td>Administrasi Publik</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>202301045</td>
+                <td>Eko Prasetyo</td>
+                <td>SNBP</td>
+                <td>PPKn</td>
+                <td>Pendidikan Pancasila dan Kewarganegaraan</td>
+            </tr>
+        </table>
+        <h4>Fakultas Ilmu Keolahragaan</h4>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Program Studi (Prodi)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>202301046</td>
+                <td>Anisa Fitriani</td>
+                <td>SNBT</td>
+                <td>Kepelatihan</td>
+                <td>Kepelatihan Olahraga</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202301047</td>
+                <td>Budi Santoso</td>
+                <td>SNBP</td>
+                <td>Pendidikan Olahraga</td>
+                <td>Pendidikan Jasmani</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>202301048</td>
+                <td>Citra Lestari</td>
+                <td>Mandiri</td>
+                <td>Kesehatan dan Rekreasi</td>
+                <td>Ilmu Keolahragaan dan Kesehatan</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>202301049</td>
+                <td>Dwi Rahayu</td>
+                <td>SNBT</td>
+                <td>Kepelatihan</td>
+                <td>Kepelatihan Olahraga</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>202301050</td>
+                <td>Eko Prasetyo</td>
+                <td>SNBP</td>
+                <td>Pendidikan Olahraga</td>
+                <td>Pendidikan Jasmani</td>
+            </tr>
+        </table>
+        <h4>Fakultas Ekonomi dan Bisnis</h4>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Program Studi (Prodi)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>202301051</td>
+                <td>Anisa Fitriani</td>
+                <td>SNBT</td>
+                <td>Akuntansi</td>
+                <td>Akuntansi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202301052</td>
+                <td>Budi Santoso</td>
+                <td>SNBP</td>
+                <td>Manajemen</td>
+                <td>Manajemen Bisnis</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>202301053</td>
+                <td>Citra Lestari</td>
+                <td>Mandiri</td>
+                <td>Perkembangan Ekonomi</td>
+                <td>Ekonomi Pembangunan</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>202301054</td>
+                <td>Dwi Rahayu</td>
+                <td>SNBT</td>
+                <td>Pendidikan Ilmu Ekonomi</td>
+                <td>Pendidikan Ekonomi</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>202301055</td>
+                <td>Eko Prasetyo</td>
+                <td>SNBP</td>
+                <td>Manajemen</td>
+                <td>Manajemen Pemasaran</td>
+            </tr>
+        </table>
+        <h4>Fakultas Pariwisata dan Perhotelan</h4>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Program Studi (Prodi)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>202301056</td>
+                <td>Anisa Fitriani</td>
+                <td>SNBT</td>
+                <td>Ilmu Kesejahteraan Keluarga</td>
+                <td>Kesejahteraan Keluarga</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202301057</td>
+                <td>Budi Santoso</td>
+                <td>SNBP</td>
+                <td>Tata Rias dan Kecantikan</td>
+                <td>Tata Rias dan Kecantikan</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>202301058</td>
+                <td>Citra Lestari</td>
+                <td>Mandiri</td>
+                <td>Pariwisata</td>
+                <td>Manajemen Pariwisata</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>202301059</td>
+                <td>Dwi Rahayu</td>
+                <td>SNBT</td>
+                <td>Pariwisata</td>
+                <td>Manajemen Perhotelan</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>202301060</td>
+                <td>Eko Prasetyo</td>
+                <td>SNBP</td>
+                <td>Tata Rias dan Kecantikan</td>
+                <td>Tata Rias Pengantin</td>
+            </tr>
+        </table>
+        <h4>Fakultas Kedokteran</h4>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Jalur Masuk</th>
+                <th>Departemen</th>
+                <th>Program Studi (Prodi)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>202301061</td>
+                <td>Anisa Fitriani</td>
+                <td>SNBT</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>202301062</td>
+                <td>Budi Santoso</td>
+                <td>SNBP</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>202301063</td>
+                <td>Citra Lestari</td>
+                <td>Mandiri</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran Hewan</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>202301064</td>
+                <td>Dwi Rahayu</td>
+                <td>SNBT</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>202301065</td>
+                <td>Eko Prasetyo</td>
+                <td>SNBP</td>
+                <td>Kedokteran</td>
+                <td>Kedokteran Hewan</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
